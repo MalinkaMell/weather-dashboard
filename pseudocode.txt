@@ -1,0 +1,6 @@
+1. create search input and button, give them both IDs, you are going to use those to select those elements with jQuery (html file)
+2. create on click event for search button and capture the value of input, save it in variable. console log to see if it works.
+2. create a first function getByCity(), do your api call, condole log the response
+3. create another function getUV(lat, lon). This function is going to make another api call, using latitude and longitude. You can obtain those by calli this function inside getByCity() and pass latitude and longitude from response as arguments. console log the response
+4. create displayWeather() function and create a view containers to display data on the page
+5. back to your getByCity function and call there displayWeather and getUV functions, passing them necessary data to display the results

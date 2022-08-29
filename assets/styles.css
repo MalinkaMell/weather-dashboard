@@ -1,0 +1,29 @@
+body{
+  background: url("images/bg.jpg") top right no-repeat, linear-gradient(90deg, rgba(0,62,63,1) 0%, rgba(0,207,255,1) 50%, rgba(0,62,63,1) 100%);;
+  color: #333333;
+}
+aside{
+  height: 100vh;
+ background: linear-gradient(to left, rgba(48,85,137,1) 0%, rgba(190, 208, 223,1) 100%);
+}
+a, .text-custom {
+  color: #315689;
+}
+a:hover{
+  text-decoration: none;
+  color: #121212;
+}
+.btn-outline-custom{
+  border: 1px solid #315689;
+  color: #315689;
+}
+.btn-outline-custom:hover{
+  background-color: #007284;
+  color: #eeeeee;
+}
+.card{
+  background: linear-gradient(to bottom, rgba(211, 230, 245, 0.6) 0%, rgba(254,255,253,.6) 100%);
+}
+.five-days{
+  background: linear-gradient(to top, rgba(211, 230, 245, 0.6) 0%, rgba(254,255,253,.6) 100%);
+}
